@@ -1,0 +1,81 @@
+body{
+    margin: 0 auto;
+    width: 1000px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+header{
+    width: 1000px;
+    height: 100px;
+}
+h1{
+    color: rgb(138, 138, 138);
+    width: 100%;
+    height:30px;
+}
+#header__nav--list dl {
+    margin: 0px;
+    padding: 0px;
+}
+#header__nav--list dl li{
+    margin-top: -20px;
+    list-style: none;
+    float: left;
+}
+#header__nav--list dl li p{
+    background-color: rgb(252, 247, 241);
+    border-radius: 2px;
+    height: 30px;
+    width: 164px;
+    border: 1px solid rgb(212, 191, 191);
+}
+#header__nav--list dl li p a{
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-left: 50px;
+}
+#main{
+    margin-top: -55px;
+    width:100%;
+    height: 350px;
+}
+#main #main__title{
+    font-size: 70px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#main #main__scrip{
+    font-size: 20px;
+    text-align: center;
+}
+#main #main_button{
+    background-color: rgb(18, 161, 42);
+    height: 35px;
+    width: 135px;
+    margin-left: 421px;
+    border-radius: 5px;
+    color: rgb(250, 250, 245);
+}
+section{
+    justify-content: space-between;
+    display: flex;
+}
+section article{
+    width:315px;
+    height: 260px;
+}
+h2{
+    font-size: 30px;
+}
+#article_buton{
+    margin-top: 5px;
+    border-radius: 5px;
+}
+footer{
+    height: 30px;
+    width: 1000px;
+    color: aliceblue
+}
