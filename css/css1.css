@@ -3,10 +3,21 @@
     width:100%;
     background-color: black;   
 }
-#header__brand{
-    margin-left: 20%;
-    width: fit-content;
-    height: fit-content;
+body{
+    margin: 0;
+    padding: 0;
+}
+.header .header__both{
+    margin: 0 auto;
+    height: 50px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.header__brand{
+    line-height: 0px;
+    font-size: 25px;
+    width: 130px;
     color: rgb(233, 222, 222);
 }
 li{
@@ -18,36 +29,32 @@ a{
     padding: 5px;
 }
 .header__menu{
-    margin-right: 20%;
-    height: fit-content;
-    width: fit-content;
-    float:right;
-    margin-top: -60px;
+    height: 50px;
+    width: 216px;
 }
 .container{
     margin: 0 auto;
-    width: 60%;
+    max-width: 60%;
 }
 .body_head{
-    margin-top: -20px;
     width: 100%;
     height: 220px;
     background-color: rgb(203, 214, 224);
     border-radius: 5px;
 }
-#body__title{
-    width: fit-content;
-    height: fit-content;
-    margin-left:10px ;
-    padding-top: 25px;
-    font-size: 50px;
+
+.body__title{
+    padding-top: 30px;
+    margin-left: 10px;
+    width:345px;
+    height: 50px;
+    font-size: 45px;
 }
-#container__text{
-    margin-top: -40px;
+.container__text{
     margin-left: 10px;
     font-size: 13px;
 }
-#container_btn{
+.container_btn{
     border: none;
     height: 30px;
     margin-left: 10px;
@@ -63,31 +70,36 @@ a{
 .main__section__article{
     border-radius: 5px;
     width:180px;
-    height:277px;
+    height:auto;
     box-sizing: border-box;
     border: 1px solid rgb(221, 227, 233);
 }
-#main__section__img{
-    width: 180px;
-    height: 100px;
+.main__section__img{
+    width: 100%;
+    height: auto;
     border-radius: 5px;
 }
-h2{
-    margin: 10px 0 0 44px;
+
+.main__section__title{
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
 }
 .main__section .main__section__article p{
+    width: 99%;
+    height: auto;
     font-size: 12px;
-    margin: 5px 5px 5px 5px;
+    padding:  0 5px 0 5px;
 }
-#footer_cpr{
-    height: fit-content;
-    width: fit-content;
-    margin-left: 556px;
-    padding-top: 10px;
-    color: azure;
+
+.buton{
+    width: 95px;
+    height: 25px;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 #main__section__article__button{
-    margin-left: 38px;
+    text-align: center;
     width: 95px;
     height: 25px;
     background-color: rgb(121, 121, 173);
@@ -97,4 +109,13 @@ h2{
 }
 .footer{
     margin-top: 30px;
+}
+.footer div{
+    height: 50px;
+    width: 199px;
+    margin: 0 auto;
+}
+.footer_cpr{
+    line-height: 50px;
+    color: aliceblue;
 }
